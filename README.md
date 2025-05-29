@@ -72,8 +72,6 @@ ESP32-SmartAlarm/
 ├── server/
 │   ├── time_server.py
 │   └── requirements.txt
-├── docs/
-│   └── architecture.md
 ├── README.md
 
 
