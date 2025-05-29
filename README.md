@@ -8,7 +8,7 @@ Set alarms and switch zones from your browser or the onboard button.
 - [Hardware](#hardware)
 - [Building](#build)
 - [Software](#software)
-
+- [Directory Structure](#directory-structure)
 
 
 ## Features
@@ -63,6 +63,19 @@ Once wired, proceed to upload the firmware and start your Flask server—your ES
   - `LiquidCrystal_I2C`, `PubSubClient`, `ArduinoJson`, `ESP32Time`
 - **Server**: Python 3.9+, Flask, paho-mqtt
 - **MQTT Broker**: e.g. Mosquitto (running on `localhost:1883`)
+## Directory Structure
+ESP32-SmartAlarm/
+├── firmware/
+│   ├── src/
+│   │   └── main.cpp
+│   └── platformio.ini
+├── server/
+│   ├── time_server.py
+│   └── requirements.txt
+├── docs/
+│   └── architecture.md
+├── README.md
+
 
 
 
